@@ -92,7 +92,7 @@ h2 > a:hover:before {
 
 
 .myphoto { 
-  background: url(images/myphoto2.jpg) no-repeat center center; 
+  background: url(arvinnespanto.github.io/images/myphoto2.jpg) no-repeat center center; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -108,7 +108,7 @@ h2 > a:hover:before {
       rgba(0, 0, 0, 0.50)
     ),
     /* bottom, image */
-    url(images/office.jpg);
+    url(arvinnespanto.github.io/images/office.jpg);
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -135,7 +135,7 @@ h2 > a:hover:before {
 }
 
 .myphoto2 { 
-  background: url(images/espanto.jpg) no-repeat center center; 
+  background: url(arvinnespanto.github.io/images/espanto.jpg) no-repeat center center; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
