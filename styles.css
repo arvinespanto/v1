@@ -1,6 +1,21 @@
+.navbar {
+  position: fixed;
+  width: 100%; 
+}
+
+.navbar > .navbar-brand {
+  font-size: 30px;
+  color: #E9E9E9;
+}
+
+.nav-link {
+  font-size: 12px;  
+}
+
+
 h2 > a {
   position: relative;
-  color: #E7E6E6;
+  color: white;
   text-decoration: none;
 }
 
@@ -50,6 +65,46 @@ h2 > a:hover:before {
   }
 }
 
+#collapsingNavbar3 a{
+  color: white
+}
+
+
+.homestart {
+  background-color: transparent;
+   background:rgba(0,0,0,0.5);
+   border-color: transparent;
+   padding-top: 20px;
+   padding-bottom: 20px;
+   margin-top: 200px;
+}
+
+#msg {
+    font-size: 20px;
+    color: #F2B000;
+}
+
+#msg1 {
+    font-size: 40px; 
+    margin-left: 5%;
+    color: white
+}
+
+#msg2 {
+    font-size: 20px; 
+    margin-left: 15%; 
+    margin-bottom: 20px; 
+    color: #F2B000
+}
+
+#msg3 {
+    margin-bottom: 20px; 
+    font-size: 15px; 
+    color: white;
+    display: inline; 
+    padding: 5px
+}
+
 .slider {  
   /* This section calls the slideInFromLeft animation we defined above */
   animation: 2s ease-out 0s 1 slideInFromLeft;
@@ -60,6 +115,11 @@ h2 > a:hover:before {
   /* This section calls the slideInFromLeft animation we defined above */
   animation: 2s ease-out 0s 1 slideInFromLeft;
   
+}
+#slider2 {
+
+  margin-top: 30px;
+  margin-left: 30px
 }
 
 
@@ -78,10 +138,24 @@ h2 > a:hover:before {
     cursor: pointer;
 }
 
+.buttoncv {
+  font-size: 15px; 
+  background-color: #D7A715; 
+  border-radius: 0; 
+  border-color: #D7A715; 
+  margin-left: 80px; 
+  border-radius: 10px
+}
+
 .buttonfacebook {
     background-color: white; 
     color: blue; 
     border: 2px solid white;
+    border-radius: 50%; 
+    margin-bottom: 20px; 
+    margin-right: 20px; 
+    height: 50px; 
+    width: 50px
 }
 
 .buttonfacebook:hover {
@@ -89,7 +163,39 @@ h2 > a:hover:before {
     cursor: pointer;
 }
 
+#home{
+  padding-bottom: 250px
+}
 
+#about{
+   margin-top: 150px;
+}
+
+#about h2 {
+  color: black
+}
+
+#about p {
+  color: grey
+}
+
+.hrstyle{
+  width: 80px; 
+  border: none; 
+  height: 5px; 
+  background-color: #F2B000; 
+  margin-bottom: 60px
+}
+
+.hrstylefooter {
+  width: 40px; 
+  border: none; 
+  height: 4px; 
+  background-color: #F2B000;
+  margin-left: 0px; 
+  margin-top: -10px; 
+  margin-bottom: 40px
+}
 
 .myphoto { 
   background: url(images/myphoto2.jpg) no-repeat center center; 
@@ -98,6 +204,109 @@ h2 > a:hover:before {
   -o-background-size: cover;
   background-size: cover;
   background-attachment: fixed;
+}
+
+.myphoto2 { 
+  background: url(images/espanto.jpg) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-left: 40px;
+}
+
+#myskills{
+  padding-bottom: 40px; 
+  padding-top: 20px; 
+  color: black
+}
+#myhobbies {
+  padding-bottom: 40px; 
+  color: black
+}
+
+#myskillsstyle h5 > #span1 {
+  color: #4C4C4A
+}
+
+#myskillsstyle h5 > #span2 {
+  color: #386FB1
+}
+
+#progressbarstyle {
+  width: auto;
+
+}
+
+#progressbarstyle .progress {
+  height: 40px; 
+  background-color: white
+}
+
+#myBar1 {
+  max-width: 90%; 
+  height: 4px; 
+  margin-top: 10px; 
+  background-color: #F2B000
+}
+
+#myBar2 {
+  max-width: 75%; 
+  height: 4px; 
+  margin-top: 10px; 
+  background-color: #F2B000
+}
+
+#myBar3 {
+  max-width: 80%; 
+  height: 4px; 
+  margin-top: 10px; 
+  background-color: #F2B000
+}
+
+#myBar4 {
+  max-width: 70%; 
+  height: 4px; 
+  margin-top: 10px; 
+  background-color: #F2B000
+}
+
+#myBar5 {
+  max-width: 85%; 
+  height: 4px; 
+  margin-top: 10px; 
+  background-color: #F2B000
+}
+
+#hobbiesstyle {
+  color: black
+}
+
+
+#hobbiesstyle .buttonhobbies {
+  border: 1px solid #FFB500;
+  border-radius: 50%; 
+  margin-bottom: 10px;
+  height: 80px; 
+  width: 80px;
+  background-color: white; 
+  color: blue; 
+  font-size: 30px;
+
+}
+
+#hobbiesstyle .buttonhobbies:hover {
+  color: orange
+}
+
+.progress .title{
+  border: 1px solid #F2B000; 
+  background-color: #F2B000; 
+  border-radius: 50px; 
+  width: 50px; 
+  padding-top: 3px; 
+  height: 25px;
+  color: white
 }
 
 .workhoto { 
@@ -117,6 +326,111 @@ h2 > a:hover:before {
   background-attachment: fixed;
 }
 
+#experience {
+  padding-bottom: 80px;
+}
+
+#experiencecontainer {
+  background-color: transparent;
+   background:rgba(0,0,0,0.5);
+   border-color: transparent;
+   padding-top: 20px;
+   padding-bottom: 20px;
+   margin-top: 200px;
+   border-radius: 20px; 
+   padding-top: 20px
+}
+
+#experiencecontainer h2 {
+  color: white
+}
+
+#experiencecontainer p, h5{
+  color: #CECECE
+}
+
+#experiencecontainer h4 {
+  color: #3A96DB; 
+  padding-bottom: 15px
+}
+
+#experiencecontainer h6 {
+  color: #F2B000
+}
+
+#experiencecontainer #pIndent {
+  padding-left: 30px
+}
+
+#projects {
+  background-color: white; 
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+#projects h2{
+  color: black
+}
+
+#projects h4{
+  color: #3F76C8; 
+  padding-bottom: 15px
+}
+
+#projects h6 {
+  color: grey
+
+}
+
+#projects #h5tech {
+  color: #F2B000; 
+  padding-bottom: 30px
+}
+
+#projects #h5screenshots {
+  color: black
+}
+
+#projects #projdesc {
+  text-align: justify; 
+  margin-top: 10px
+}
+
+#projects #projdesc h6{
+  color: #5C5A5A
+}
+
+#projects #projdesc p{
+  color: grey
+}
+
+#projects #projdesc h5 {
+  color: #3F76C8
+}
+
+#carouselmain img{
+  height: 350px; 
+  width: 800px
+}
+
+#education {
+  background-color: #E5E3E3; 
+  padding-bottom: 120px;
+  padding-top: 70px
+}
+
+#education h2, p {
+  color: white
+}
+
+#educstyle{
+  border-top: 60px solid orange; 
+  background-color: white; 
+  margin-bottom: 40px; 
+  border-radius: 20px; 
+  padding-bottom: 20px
+}
+
 .schoolphoto { 
  background: 
     /* top, transparent red */ 
@@ -134,12 +448,13 @@ h2 > a:hover:before {
   background-attachment: fixed;
 }
 
-.myphoto2 { 
-  background: url(images/espanto.jpg) no-repeat center center; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+#photoinfo{
+   background: rgba(0,0,0,0.3);
+}
+
+#photoinfo p{
+   color: white; 
+   font-size: 18px
 }
 
 .navbar-fixed-top.scrolled {
@@ -193,6 +508,8 @@ h2 > a:hover:before {
   font: 400 100px/1.5 'Pacifico', Helvetica, sans-serif;
   color: #2b2b2b;
   text-shadow: 3px 3px 0px rgba(0,0,0,0.1), 7px 7px 0px rgba(0,0,0,0.05);
+  color: #F39C12; 
+  font-size: 20px
 }
 #myCarousel .list-inline {
     white-space:nowrap;
@@ -204,6 +521,8 @@ h2 > a:hover:before {
     left: initial;
     width: initial;
     margin-left: initial;
+    padding-top: 20px; 
+    padding-left: 80px
 }
 
 #myCarousel .carousel-indicators > li {
@@ -225,6 +544,9 @@ h2 > a:hover:before {
 
 .titlebox{
   margin-top:-55px;
+  font-size: 30px;
+  color: white;
+  text-align: center
 }
 
 .outer-div
@@ -238,8 +560,14 @@ h2 > a:hover:before {
      background-size: cover;
      background-position: center;
      transition: all 0.5s ease;
-    
+     margin-top: 30px; 
+     padding-bottom: 95px;
 }
+
+.inner-div h5{
+  color: #3F76C8;
+}
+
 .inner-div[style]:hover
 {
      color: transparent !important;
@@ -254,8 +582,15 @@ h2 > a:hover:before {
      background-size: cover;
      background-position: center;
      transition: all 0.5s ease;
+     margin-top: 30px; 
+     padding-bottom: 95px
     
 }
+
+.inner-divhs h5{
+  color: #3F76C8;
+}
+
 .inner-divhs:hover
 {
       color: transparent !important;
@@ -270,15 +605,21 @@ h2 > a:hover:before {
      background-size: cover;
      background-position: center;
      transition: all 0.5s ease;
-    
+     margin-top: 30px; 
+     padding-bottom: 95px;
 }
+
+.inner-divelem h5{
+  color: #3F76C8;
+}
+
+
 .inner-divelem:hover
 {
     color: transparent !important;
      background-image: url(images/elementary.jpg);
      transform: scale(1.2);
 }
-
 
 .newfont2 {
   font: 400 130px/0.8 'Great Vibes', Helvetica, sans-serif;
@@ -289,11 +630,65 @@ h2 > a:hover:before {
 .techuse {
     background-color: white; 
     color: black; 
-    border: 2px solid white;
+    border: 1px solid #FFB500;
+    border-radius: 50%; 
+    margin-bottom: 10px;
+    height: 180px; 
+    width: 180px; 
+    margin-right: 30px;
 }
 
 .techuse:hover {
     color: red;
+}
+
+#footerbottom {
+  background-color: black;
+}
+
+#footerbottom #divmargtop {
+  margin-top: 40px;
+}
+
+#footerbottom #desdev {
+  color: #F4F6F6;
+}
+
+#footerbottom #desdevdesc {
+  color: #AEB6BF;
+}
+
+#footerbottom p {
+  font-size: 15px; 
+  color: #F39C12
+}
+
+#footerlinks {
+  padding-bottom: 15px
+}
+
+#footerlinks a{
+  text-decoration: none
+}
+
+#footercontact {
+  padding-bottom: 15px;
+  color: #AEB6BF;
+}
+
+#footercontact > span {
+  font-family: sans-serif;
+}
+
+#bottompart {
+  background-color: #101010;
+  padding-bottom: 5px; 
+  padding-top: 10px
+}
+
+#bottompart p {
+  color: #888888;
+  text-align: center;
 }
 
 .spinner-wrapper {
@@ -447,6 +842,7 @@ lesshat-selector {
   -webkit-animation: Gradient 4s ease infinite;
   -moz-animation: Gradient 4s ease infinite;
   animation: Gradient 4s ease infinite;
+  padding: 20px
 }
 
 @-webkit-keyframes Gradient {
