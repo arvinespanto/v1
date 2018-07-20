@@ -94,10 +94,35 @@
     cursor: pointer; }
 
 #home {
-  padding-bottom: 250px; }
+  padding-top: 150px;
+  padding-bottom: 250px;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  
+  margin: 0; }
+
+
+    .backimage .slide {
+      z-index: -1;
+      position: absolute;
+      width: 100%;
+      top: 0;
+      left: 0;
+      height: 100%;
+      transition: opacity 1s ease-in-out;
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      opacity: 0;
+    }
+    .backimage .slide.show {
+      opacity: 1;
+    }
+
 
 #about {
-  margin-top: 150px;
+  padding-top: 60px;
   padding-bottom: 80px; }
   #about h2 {
     color: #000; }
